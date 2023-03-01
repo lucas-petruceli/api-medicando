@@ -1,6 +1,10 @@
 package com.api.medicando.main.data;
 
-public class Questoes {
+import java.io.Serializable;
+
+public class Questoes implements Serializable{
+    private final long serialVersionUID = 1L;
+
     private final long id;
     private final String title;
 
